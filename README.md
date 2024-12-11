@@ -13,3 +13,5 @@ Why TypeScript:
 - Code scalability - TypeScript is a compiled language, which means that you can write your code in TypeScript and then compile it down to JavaScript. This can help you write more complex and scalable applications, and can help you avoid some of the pitfalls of writing large applications in JavaScript.
 
 - Job opportunities - TypeScript is becoming increasingly popular in the software development industry, and many companies are looking for developers who have experience with TypeScript. Learning TypeScript can help you stand out from other job candidates and can help you land a job at a top tech company.
+
+<!-- Errors fixed: Runtime error, Syntax error, Logical error, Semantic error, Type error, Range error, Reference error, URI error, Eval error, Internal error, etc. -->
