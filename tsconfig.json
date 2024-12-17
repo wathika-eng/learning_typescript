@@ -10,19 +10,31 @@
     ],
     "skipLibCheck": true,
     /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "moduleResolution": "node", // Change this to 'node' or 'node16' if using a newer Node version
     "isolatedModules": true,
     "moduleDetection": "force",
     "noEmit": true,
     /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "strict": true, // Enforces all strict checks (similar to Go's strictness)
+    "noUnusedLocals": true, // Error on unused local variables
+    "noUnusedParameters": true, // Error on unused function parameters
+    "noFallthroughCasesInSwitch": true, // Prevent fallthrough behavior in switch statements
+    "alwaysStrict": true, // Ensure "use strict" is added to every file
+    "strictBindCallApply": true, // Ensure correct types for `bind`, `call`, and `apply` methods
+    "strictFunctionTypes": true, // Enforce function type checking, especially for overloads
+    "strictNullChecks": true, // Enable strict null checks (no null/undefined unless explicitly typed)
+    "strictPropertyInitialization": true, // Ensure all class properties are initialized
+    "noImplicitAny": true, // Prevent variables from having an implicit `any` type
+    "noImplicitThis": true, // Ensure `this` is always correctly typed
+    "esModuleInterop": true, // Enable default imports for CommonJS modules
+    "skipDefaultLibCheck": true, // Skip checking of default lib files (for faster compilation)
+    "resolveJsonModule": true // Allow importing JSON files as modules
   },
   "include": [
     "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
   ]
 }
