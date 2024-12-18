@@ -31,7 +31,8 @@
     "resolveJsonModule": true // Allow importing JSON files as modules
   },
   "include": [
-    "**/*.ts"
+    "**/*.ts",
+    "*.ts"
   ],
   "exclude": [
     "node_modules",
